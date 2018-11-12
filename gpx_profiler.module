@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains gpx_profiler.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gpx_profiler_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the gpx_profiler module.
+    case 'help.page.gpx_profiler':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('GPX Profiler') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function gpx_profiler_theme() {
+  return [
+    'gpx_profiler' => [
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -1,0 +1,14 @@
+{
+  "name": "drupal/gpx_profiler",
+  "type": "drupal-module",
+  "description": "GPX Profiler",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/gpx_profiler",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/gpx_profiler",
+    "source": "http://cgit.drupalcode.org/gpx_profiler"
+  },
+  "require": { }
+}

@@ -1,0 +1,5 @@
+name: 'GPX Profiler'
+type: module
+description: 'GPX Profiler'
+core: 8.x
+package: 'Field Formatters'
