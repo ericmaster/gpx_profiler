@@ -10,5 +10,7 @@
     "issues": "https://www.drupal.org/project/issues/gpx_profiler",
     "source": "http://cgit.drupalcode.org/gpx_profiler"
   },
-  "require": { }
+  "require": {
+    "sibyx/phpgpx": "dev-master"
+  }
 }
